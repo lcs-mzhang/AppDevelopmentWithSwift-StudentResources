@@ -14,6 +14,8 @@ if steps < stepGoal / 2 {
     print("Over halfway!")
 }
 
+var halfway: String = steps > stepGoal/2 ? "Over halfway!" : "Almost halfway!"
+print(halfway)
 
 /*:
  
